@@ -42,8 +42,14 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 <img width="1001" height="635" alt="Screenshot 2025-10-13 002029" src="https://github.com/user-attachments/assets/5fe0211c-2782-4fb6-8324-9b892001790c" />
 
 ---
-
+## 📝 Changelog v2.5.0
+✨ New Features
+Windows Autostart Support: Added the set_autostart function to allow applications to run automatically when the Windows operating system starts. This feature uses the winreg module and is explicitly intended for Windows systems.
+🛠️ Technical Changes and Updates
+Code Modularization: Refactored by separating interface components (such as DownloadProgressDialog) and the DownloadStatus (Enum) definition into separate files (macan_dialog.py).
+The main file (macan_download10.py) now imports these classes from macan_dialog.py, allowing the main code to focus more on the download manager logic.
 ## 💼 Technologies Used
+---
 
 | Components | Technology |
 |-----------|------------|
