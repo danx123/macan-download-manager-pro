@@ -42,14 +42,30 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 <img width="1001" height="635" alt="Screenshot 2025-10-13 002029" src="https://github.com/user-attachments/assets/5fe0211c-2782-4fb6-8324-9b892001790c" />
 
 ---
-## 📝 Changelog v2.5.0
-✨ New Features
-Windows Autostart Support: Added the set_autostart function to allow applications to run automatically when the Windows operating system starts. This feature uses the winreg module and is explicitly intended for Windows systems.
-🛠️ Technical Changes and Updates
-Code Modularization: Refactored by separating interface components (such as DownloadProgressDialog) and the DownloadStatus (Enum) definition into separate files (macan_dialog.py).
-The main file (macan_download10.py) now imports these classes from macan_dialog.py, allowing the main code to focus more on the download manager logic.
-## 💼 Technologies Used
+## 📝 Changelog v3.0.0
+This update brings significant improvements in download speed and stability with the implementation of Multi-Connection Download (Split Download) and improvements to the Windows Autostart feature.
+
+- Major New Features & Improvements
+Multi-Connection Download (Split Download):
+Implements a new Download Manager mechanism that can split files into multiple connections (splits) for simultaneous downloads. This can significantly increase download speeds (depending on the server).
+Adds a new field/option (splits) to download items to set the number of connections.
+DownloadWorker has been refactored to handle downloads by byte range.
+Server capability checks (Accept-Ranges) are performed in a separate thread to avoid freezing the main UI when adding downloads.
+Windows Autostart Improvements:
+Fixed Windows Autostart logic to work correctly for both script (.py) and executable (.exe) builds.
+The "Start with Windows" configuration implementation in the Settings Dialog has been fully integrated.
+
+- UI/UX Improvements & Improvements
+Download Progress Dialog Improvements:
+The download progress dialog window (DownloadProgressDialog) has been widened (minimum height 350px to 380px) to accommodate more detailed connection/split information.
+Junk File Cleanup:
+Improved the download deletion logic to ensure that part files (.part0, .part1, etc.) created during the split download process are also deleted when the item is removed from the list and the physical file is deleted.
+Code Improvements:
+The dialog code structure (macan_dialog.py) has been simplified by removing unnecessary comments related to modularization, demonstrating cleaner component separation.
+Added threading imports and new PySide6 widgets such as QFileIconProvider to support multi-connection features and improved file display.
+
 ---
+## 💼 Technologies Used
 
 | Components | Technology |
 |-----------|------------|
