@@ -36,33 +36,18 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 ---
 ## 📸 Screenshot
-<img width="1002" height="634" alt="Screenshot 2025-10-13 001945" src="https://github.com/user-attachments/assets/8209afe5-f9e1-4228-9adb-99e80c993a2c" />
-<img width="1003" height="628" alt="Screenshot 2025-10-13 002001" src="https://github.com/user-attachments/assets/4d03d80f-f424-4d26-86c4-f78b53bc3ca5" />
-<img width="1002" height="629" alt="Screenshot 2025-10-13 002015" src="https://github.com/user-attachments/assets/14c256f2-bea1-45dc-aa5a-462e3c97d945" />
-<img width="1001" height="635" alt="Screenshot 2025-10-13 002029" src="https://github.com/user-attachments/assets/5fe0211c-2782-4fb6-8324-9b892001790c" />
+<img width="1000" height="630" alt="Screenshot 2025-10-25 200355" src="https://github.com/user-attachments/assets/0fd5f473-e1b8-4b4e-b155-8aca3d2cfcef" />
+<img width="1000" height="635" alt="Screenshot 2025-10-25 200520" src="https://github.com/user-attachments/assets/01e8d252-fc66-4092-9a5d-8eeefe78eada" />
+
+
 
 ---
-## 📝 Changelog v3.0.0
-This update brings significant improvements in download speed and stability with the implementation of Multi-Connection Download (Split Download) and improvements to the Windows Autostart feature.
+## 📝 Changelog v3.2.0
+- Added new theme: "Light Theme"
+- Added Clear all completed button (Toolbar)
 
-- Major New Features & Improvements
-Multi-Connection Download (Split Download):
-Implements a new Download Manager mechanism that can split files into multiple connections (splits) for simultaneous downloads. This can significantly increase download speeds (depending on the server).
-Adds a new field/option (splits) to download items to set the number of connections.
-DownloadWorker has been refactored to handle downloads by byte range.
-Server capability checks (Accept-Ranges) are performed in a separate thread to avoid freezing the main UI when adding downloads.
-Windows Autostart Improvements:
-Fixed Windows Autostart logic to work correctly for both script (.py) and executable (.exe) builds.
-The "Start with Windows" configuration implementation in the Settings Dialog has been fully integrated.
 
-- UI/UX Improvements & Improvements
-Download Progress Dialog Improvements:
-The download progress dialog window (DownloadProgressDialog) has been widened (minimum height 350px to 380px) to accommodate more detailed connection/split information.
-Junk File Cleanup:
-Improved the download deletion logic to ensure that part files (.part0, .part1, etc.) created during the split download process are also deleted when the item is removed from the list and the physical file is deleted.
-Code Improvements:
-The dialog code structure (macan_dialog.py) has been simplified by removing unnecessary comments related to modularization, demonstrating cleaner component separation.
-Added threading imports and new PySide6 widgets such as QFileIconProvider to support multi-connection features and improved file display.
+
 
 ---
 ## 💼 Technologies Used
