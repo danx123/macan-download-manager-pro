@@ -42,9 +42,8 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 
 ---
-## 📝 Changelog v3.2.0
-- Added new theme: "Light Theme"
-- Added Clear all completed button (Toolbar)
+## 📝 Changelog v3.3.0
+- Fixed Startup Mode (Autostart Windows) Minimize to tray
 
 
 
