@@ -42,8 +42,8 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 
 ---
-## 📝 Changelog v3.3.0
-- Fixed Startup Mode (Autostart Windows) Minimize to tray
+## 📝 Changelog v3.5.0
+- Update Framework
 
 
 
