@@ -42,8 +42,9 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 
 ---
-## 📝 Changelog v3.5.0
-- Update Framework
+## 📝 Changelog v3.7.0
+- Optimized MIME type detection
+- Fixed split & merge
 
 
 
