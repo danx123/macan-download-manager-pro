@@ -42,9 +42,8 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 
 ---
-## 📝 Changelog v3.7.0
-- Optimized MIME type detection
-- Fixed split & merge
+## 📝 Changelog v4.7.0
+- Update framework
 
 
 
@@ -102,4 +101,4 @@ Open source and can be further developed by the community.
 
 📜 License
 MIT License
-© 2025 Macan Angkasa Independent Technology Ecosystem
+© 2026 Macan Angkasa Independent Technology Ecosystem
