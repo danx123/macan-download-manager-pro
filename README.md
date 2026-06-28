@@ -36,7 +36,9 @@ Developed by Danx Exodus under the Macan Angkasa Independent Technology Ecosyste
 
 ---
 ## 📸 Screenshot
-<img width="1000" height="630" alt="Screenshot 2025-10-25 200355" src="https://github.com/user-attachments/assets/0fd5f473-e1b8-4b4e-b155-8aca3d2cfcef" />
+
+<img width="1007" height="639" alt="Screenshot 2026-06-28 185556" src="https://github.com/user-attachments/assets/15f6e363-5eb8-439a-981b-7294e6d311c1" />
+
 <img width="1000" height="635" alt="Screenshot 2025-10-25 200520" src="https://github.com/user-attachments/assets/01e8d252-fc66-4092-9a5d-8eeefe78eada" />
 
 ---
